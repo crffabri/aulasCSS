@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+h1: {
+    font-family: "Great Vibes", cursive;
+}
+
+body {
+    font-family: "Great Vibes", cursive;
+    /* background-color: red; */
+    /* background-color: rgb(red, green, blue); */
+    background-color: rgb(249, 250, 247);
+    color: #079DD9; 
+    
+}
+h1{color:  #F2CB05;}

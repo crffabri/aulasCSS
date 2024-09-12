@@ -1,0 +1,28 @@
+/* 
+font-weight - porém não tem importância
+line-height - almenta o espaço entre as linhas.
+text-aling - Alinhamento de texto. left, right, justify e center
+text-shadow - 
+text-indent - configura a indentação.
+filter-Op.
+*/
+span {
+    font-weight: bold;
+}
+
+strong {
+    font-weight: 100;
+}
+
+article {
+    font-style: italic;
+    color: blueviolet;
+    text-align: right;
+    
+}
+
+p {
+    text-align: center;
+    text-indent: 100px;
+    line-height: 200%;
+}
