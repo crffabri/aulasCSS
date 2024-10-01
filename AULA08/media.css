@@ -1,0 +1,34 @@
+.texto{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 320px) {
+   /* Enquanto a tela for menor/maior de 320px */
+    h1{
+        color: brown;
+    }
+}
+
+@media print and (max-width:1200px) {
+   h2{
+    color: blue;
+    text-align: center;
+   }
+}
+@media (max-width:760px) {
+    h3{
+        color: cornflowerblue;
+        text-align: right;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1201px) {
+
+ h1,h2{
+    display: none;
+ }
+}
+/*media screen
+media print 
+media landscape
+media speech/*

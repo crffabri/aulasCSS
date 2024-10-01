@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.c1 {
+    background-color: blue;
+    order: 2;
+}
+
+.c2{
+    background-color: aquamarine;
+    order: 3;
+}
+.c3{
+    background-color: aqua;
+    order: 1;
+}
+
+
+.caixa {
+    height: 200px;
+    width: 200px;
+    border: solid 1px;
+    margin: 5px;
+
+}
+
+.container {
+    border: solid 1px;
+    height: 800px;
+    width: 800px;
+    margin: 25px auto;
+    background-color: silver;
+    display: flex;
+    /* mudar o layout do Display */
+    /* muda o comportamento do container */
+     /* flex-direction: row;
+     flex-direction: row-reverse; */
+     /* flex-direction: column;
+    flex-direction: column-reverse;   */
+
+    display: flex;
+
+    /* faz a quebra dos elemtos na linha ou coluna (flex-direction define o comportamento) */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap;
+flex-wrap: wrap-reverse; */
+
+flex-flow: row wrap;
+
+    /* justify-content: flex-end; */
+    /*Equivale aos elementos anteriores
+    flex-direction: row
+    /* plex-wrap */
+
+    /* alimhamento seguindo a orientação do main axist  */
+    /* justify-content: space-around; */
+
+   
+    /* flex-direction: column;
+    flex-direction: column-reverse; 
+    esquerda/embaixo */
+
+    /* flex-direction: row;
+     flex-direction: row-reverse;
+     em cima/direita */
+
+
+
+}

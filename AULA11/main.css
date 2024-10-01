@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 500px;
+    width: 800px;
+    gap: ;
+    grid-template-areas: 
+    "caixa1 caixa1 caixa1"
+    "caixa2 caixa2 caixa2"
+    "caixa3 caixa3 caixa3";
+}
+
+.caixa1 {
+grid-area: caixa1;
+    background-color: deepskyblue;
+}
+
+.caixa2 {
+    grid-area: caixa2;
+    background-color: darkseagreen;
+}
+
+.caixa3 {
+    grid-area: caixa3;
+    background-color: cornflowerblue;
+}
